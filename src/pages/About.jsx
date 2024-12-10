@@ -1,7 +1,7 @@
 import Title from "../components/Title";
 import { assets } from "../assets/images/assets";
 import NewsLetterBox from "../components/NewsLetterBox";
-
+  
 export default function About() {
   return (
     <div>

@@ -1,6 +1,6 @@
 import Title from "../components/Title";
 import {assets} from "../assets/images/assets";
-import NewsletterBox from "../components/NewsletterBox";
+import NewsLetterBox from "../components/NewsLetterBox";
 export default function Contact() {
   return (
     <div>
@@ -24,7 +24,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <NewsletterBox />
+      <NewsLetterBox />
     </div>
   );
 }

@@ -1,9 +1,4 @@
-import React from "react";
-
 export default function NewsLetterBox() {
-  const onSubmitHandler = (e) => {
-    e.preventDefault();
-  };
   return (
     <div className="text-center">
       <p className="text-2xl font-medium text-gray-800">
@@ -14,10 +9,7 @@ export default function NewsLetterBox() {
         dolorum!
       </p>
 
-      <form
-        onSubmit={onSubmitHandler}
-        className="w-full sm:w-1/2 items-center flex gap-3 mx-auto my-6 border pl-3"
-      >
+      <form className="w-full sm:w-1/2 items-center flex gap-3 mx-auto my-6 border pl-3">
         <input
           className="w-full flex-1 outline-none"
           type="email"

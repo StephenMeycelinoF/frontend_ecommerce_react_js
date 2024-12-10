@@ -16,10 +16,7 @@ export default function NewsLetterBox() {
           placeholder="Enter your email"
           required
         />
-        <button
-          type="submit"
-          className="bg-black text-white text-xs px-10 py-4"
-        >
+        <button className="bg-black text-white text-xs px-10 py-4">
           SUBSCRIBE
         </button>
       </form>

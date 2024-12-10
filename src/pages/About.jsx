@@ -1,6 +1,6 @@
 import Title from "../components/Title";
 import { assets } from "../assets/images/assets";
-import NewsletterBox from "../components/NewsletterBox";
+import NewsLetterBox from "../components/NewsLetterBox";
 
 export default function About() {
   return (
@@ -64,7 +64,7 @@ export default function About() {
         </div>
       </div>
 
-      <NewsletterBox />
+      <NewsLetterBox />
     </div>
   );
 }
